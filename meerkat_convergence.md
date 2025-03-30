@@ -259,7 +259,7 @@ $$
 \delta^{r+1} \leq \delta^r - \eta T \|\nabla \mathcal{L}(\mathbf{w}^r)\|^2 + \eta T \|\nabla \mathcal{L}(\mathbf{w}^r)\| \zeta + \frac{L T^2 \eta^2}{2} (\rho G^2 + \sigma^2).
 $$
 
-Since $\|\nabla \mathcal{L}(\mathbf{w}^r)\|^2 \geq 2\mu \delta^r$, choose $\eta$ small enough (e.g., $\eta \leq \frac{1}{L T}$) to ensure descent. After $R$ rounds:
+Since $\|\nabla \mathcal{L}(\mathbf{w}^r)\|^2 \geq 2\mu \delta^r$, choose $\eta$ small enough to ensure descent. After $R$ rounds:
 
 $$
 \delta^R \leq (1 - \mu \eta T)^R \delta_0 + \frac{\eta T \zeta^2 + L T^2 \eta^2 (\rho G^2 + \sigma^2)}{2\mu \eta T},
